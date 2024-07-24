@@ -5,8 +5,10 @@ import StyledButton from "./components/Button";
 function App() {
 	return (
 		<div>
-			{/* <button>Button</button> */}
+			
 			<StyledButton>Styled button</StyledButton>
+			<div><br/></div>
+			<StyledButton variant='outline'>Styled button</StyledButton>
 		</div>
 	);
 }
